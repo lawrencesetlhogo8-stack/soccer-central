@@ -1,0 +1,125 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071827">
+  <meta name="description" content="SOCCER CENTRAL - Worldwide football fixtures, results and predictions.">
+  <title>SOCCER CENTRAL</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #071827;
+      color: white;
+    }
+    header {
+      padding: 22px 18px;
+      background: #0d2638;
+      border-bottom: 2px solid #20c878;
+    }
+    header h1 { margin: 0; color: #20c878; }
+    header p { color: #b7cbd5; margin-bottom: 0; }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 15px 5px;
+      background: #102c40;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    nav a { color: white; text-decoration: none; }
+    main { padding: 20px; }
+    .welcome { margin-bottom: 24px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    .card {
+      background: #12344a;
+      padding: 20px 12px;
+      border-radius: 12px;
+      border: 1px solid #24516a;
+      text-align: center;
+    }
+    .card h2 { color: #20c878; }
+    .premium {
+      background: #15513e;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 22px;
+      text-align: center;
+    }
+    button {
+      background: #20c878;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #b7cbd5;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚽ SOCCER CENTRAL</h1>
+    <p>Your world of football intelligence</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#leagues">Leagues</a>
+    <a href="#fixtures">Fixtures</a>
+    <a href="#results">Results</a>
+    <a href="#premium">Premium</a>
+  </nav>
+
+  <main id="home">
+    <section class="welcome">
+      <h2>Welcome to SOCCER CENTRAL</h2>
+      <p>Worldwide football information, statistics and match predictions.</p>
+    </section>
+
+    <section class="grid" id="leagues">
+      <div class="card">
+        <h2>100+</h2>
+        <p>Football Leagues</p>
+      </div>
+      <div class="card" id="fixtures">
+        <h2>Fixtures</h2>
+        <p>Upcoming matches</p>
+      </div>
+      <div class="card" id="results">
+        <h2>Results</h2>
+        <p>Completed matches</p>
+      </div>
+      <div class="card">
+        <h2>AI</h2>
+        <p>Match Predictions</p>
+      </div>
+    </section>
+
+    <section class="premium" id="premium">
+      <h2>SOCCER CENTRAL PREMIUM</h2>
+      <h1>R49.99 / month</h1>
+      <p>Unlimited prediction views and advanced football analysis.</p>
+      <p>Voucher payment available.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>SOCCER CENTRAL | Football analysis only</p>
+    <p>Terms & Conditions | Privacy Policy</p>
+    <p>© 2026 SOCCER CENTRAL</p>
+  </footer>
+</body>
+</html>
