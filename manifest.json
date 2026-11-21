@@ -1,0 +1,12 @@
+
+{
+  "name": "SOCCER CENTRAL",
+  "short_name": "SOCCER CENTRAL",
+  "description": "Worldwide football fixtures, results and predictions",
+  "start_url": "/soccer-central/",
+  "scope": "/soccer-central/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#071827",
+  "theme_color": "#071827"
+}
