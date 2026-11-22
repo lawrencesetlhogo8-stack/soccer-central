@@ -2,3 +2,6 @@
 <meta name="theme-color" content="#071827">
 <link rel="manifest" href="/soccer-central/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#071827">
+<link rel="manifest" href="/soccer-central/manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
